@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Singh - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: rgb(7, 7, 61);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(48, 48, 148);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: rgb(241, 150, 150)
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0;
+        align-items: center;
+    }
+
+    main hr {
+        border: 0;
+        height: 1.2px;
+        background-color: rgb(124, 109, 224);
+        margin: 40px 84px;
+    }
+
+    .firstsection>div {
+        width: 30%;
+    }
+
+    .leftsection {
+
+        font-size: 3rem;
+    }
+
+    .rightsection img {
+        width: 80%;
+        margin: 50px 0;
+
+    }
+
+    .purple {
+        color: blueviolet;
+    }
+
+    #element {
+        color: rgb(243, 9, 9);
+    }
+
+    .secondSection {
+        max-width: 80vw;
+        margin: auto;
+    }
+
+    .secondSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 180px 80;
+        align-items: center;
+    }
+
+    .secondLeft img {
+        width: 50%;
+
+        margin-left: 61px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+
+
+    }
+
+    h1 {
+        margin: 30px 80px;
+        color: rgb(192, 192, 241);
+        font-size: 2rem;
+    }
+
+    .secondRight {
+        color: rgb(238, 84, 84);
+        font-size: 1.2rem;
+    }
+
+
+
+    .thirdSection {
+        max-width: 80vw;
+        height: 80vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+
+
+    }
+
+    .box {
+        background: white;
+        height: 1px;
+        width: 80vw;
+        margin: 56px 0;
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+
+    .verticalBox {
+        height: 93px;
+        width: 2px;
+        background: white;
+
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 87px;
+        right: 22px;
+    }
+
+    .v-disc {
+        position: relative;
+        top: 92px;
+        right: 12px;
+        white-space: nowrap;
+        font-size: 10px;
+        color: gray;
+    }
+    .v-disc-1{
+        position: relative;
+        top: 92px;
+        right: 44px;
+        white-space: nowrap;
+        font-size: 10px;
+        color: gray;
+    }
+    .vertical-title-1{
+        position: relative;
+        top: 87px;
+        right: 40px;
+        white-space: nowrap;
+    }
+    .v-disc-2{
+        position: relative;
+        top: 92px;
+        right: 24px;
+        white-space: nowrap;
+        font-size: 10px;
+        color: gray;
+    }
+    
+
+.resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(241, 150, 150);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    top: 252px;
+}
+
+
+.resume-link:hover {
+    background-color: rgb(238, 84, 84);
+}
+
+.resume-link i {
+    margin-left: 5px;
+    transition: margin-left 0.3s ease;
+}
+
+.resume-link:hover i {
+    margin-left: 10px;
+}
+footer {
+    background-color: rgba(23, 22, 22, 0.815);
+    height: auto; /* Adjust the height as needed */
+    padding: 20px; /* Add some padding for better spacing */
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f1 h3 {
+    margin-bottom: 10px;
+}
+
+.f2, .f3, .f4, .f5 {
+    margin: 5px 0;
+}
+
+
+
+
+</style>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#secondSection">About</a></li>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#thirdSection">Projects</a></li>
+                    <li><a href="#footer">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi I am <span class="purple">Pranjal</span>
+                <div>I am a </div>
+                <span id="element"></span>
+            </div>
+            <a class="resume-link" href="pranjalSinghresume.rtf" target="_blank">Resume <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+
+            <div class="rightsection">
+                <img src="wdplr.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <h1>About</h1>
+        <section class="secondSection">
+
+
+            <div class="secondLeft">
+                <img src="myPic.png" alt="">
+
+            </div>
+            <div class="secondRight">
+                <div>I am a passionate Web Developer
+                    and a Java Programmer with Core Knowledge of Java. <br>
+                    I have worked on various Projects Using
+                    <i>HTML,CSS,JavaScript,Java Swing and AWT.</i><br>
+                    I have the ability to adapt myself in
+                    any Type of working background and i have a Learning Nature
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <h1>Projects</h1>
+        <section class="thirdSection">
+
+            <div class="box">
+                <div class="verticalBox">
+                    <div class="vertical-title">
+                        Simple ATM Machine
+                    </div>
+                    <div class="v-disc">
+                        Java
+                    </div>
+                </div>
+                <div class="verticalBox">
+                    <div class="vertical-title">
+                        Railway Ticket Form 
+                    </div>
+                    <div class="v-disc-1">
+                        HTML,CSS,JavaScript
+                    </div>
+                </div>
+                <div class="verticalBox">
+                    <div class="vertical-title">
+                        Website Landing Page
+                    </div>
+                    <div class="v-disc">
+                        HTML,CSS
+                    </div>
+                </div>
+                <div class="verticalBox">
+                    <div class="vertical-title-1">
+                        My  Portfolio
+                    </div>
+                    <div class="v-disc-1">
+                        HTML,CSS,JavaScript
+                    </div>
+                </div>
+                <div class="verticalBox">
+                    <div class="vertical-title">
+                        Calculator and Temperature Calculator
+                    </div>
+                    <div class="v-disc-2">
+                        Java Swing and AWT
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="f1">
+                    <h3>Contact Info</h3>
+                </div>
+                <div class="f2">Name: Pranjal Singh</div>
+                <div class="f3">E-Mail: pranjalsinghoriginal@gmail.com</div>
+                <div class="f4">Mobile No.: +91 8948959365</div>
+                <div class="f5">Location: Varanasi, Uttar Pradesh, 221403</div>
+            </div>
+        </footer>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Java Programmer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
